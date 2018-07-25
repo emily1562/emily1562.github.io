@@ -4,16 +4,19 @@ body{
 
 h1{
   font-family: 'Indie Flower', cursive;
-  font-size: 75px;
+  font-size: 60px;
 }
 
 h2{
   font-family: 'Indie Flower', cursive;
-  font-size: 50px;
+  font-size: 45px;
 }
 
 p{
   font-size: 17px;
+}
+iframe{
+  float:left;
 }
 
 /*img{
@@ -24,18 +27,18 @@ p{
 .fampic{
   width: 30%;
   height: 30%;
-  float: left;
+  <!-- float: left;-->
 }
 
 .tennis{
   width: 15%;
   height: 15%;
-  float: left;
-  clear: left;
+  <!-- float: left;
+  clear: left;-->
 }
 .adventurecode{
   width: 30%;
   height: 30%;
-  float: left;
-  clear: left;
+  <!-- float: left;
+  clear: left;-->
 }
