@@ -19,6 +19,7 @@ p{
 .fampic{
   width: 30%;
   height: 30%;
+  float: left;
 }
 
 .tennis{
@@ -30,4 +31,6 @@ p{
 .code{
   width: 30%;
   height: 30%;
+  float: left;
+  clear: left;
 }
