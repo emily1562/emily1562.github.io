@@ -1,6 +1,5 @@
 body{
-    /*text-align: center;*/
-    float: Left;
+   text-align: center;
 }
 
 h2{
@@ -23,8 +22,10 @@ p{
 }
 
 .tennis{
-   width: 15%;
+  width: 15%;
   height: 15%;
+  float: left;
+  clear: left;
 }
 .code{
   width: 30%;
