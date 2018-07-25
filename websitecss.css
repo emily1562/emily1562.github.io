@@ -27,14 +27,14 @@ iframe{
 .fampic{
   width: 30%;
   height: 30%;
-  <!-- float: left;-->
+  float: left;
 }
 
 .tennis{
   width: 15%;
   height: 15%;
-  <!-- float: left;
-  clear: left;-->
+  float: left;
+  clear: left;
 }
 .adventurecode{
   width: 30%;
