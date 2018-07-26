@@ -16,7 +16,8 @@ p{
   font-size: 17px;
 }
 iframe{
-  float: right;
+  float: left;
+  display: inline-block;
 }
 
 img{
