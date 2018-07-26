@@ -19,11 +19,10 @@ iframe{
   float:left;
 }
 
-/*img{
-  float:left;
-}*/
-
-
+img{
+   display: inline-block;
+}
+   
 .fampic{
   width: 30%;
   height: 30%;
