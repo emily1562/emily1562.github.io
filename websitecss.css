@@ -17,11 +17,6 @@ p{
 }
 iframe{
   float: left;
-  display: inline-block;
-}
-
-img{
-   display: inline-block;
 }
    
 .fampic{
