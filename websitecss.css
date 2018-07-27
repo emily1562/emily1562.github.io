@@ -20,15 +20,16 @@ iframe{
   display: inline-block;
 }
 
+.pictures{
+  margin-bottom: 250px;
+  display: inline-block;
+}
+
 .text{
   display:inline-block;
   width: 600px;
-  margin-left: 20px;
+  margin-left: 30px;
 }
-/* header code .header {
-    padding: 20px;
-    text-align: center;
-}*/
 
 .fampic{
   width: 30%;
@@ -36,15 +37,9 @@ iframe{
   display: inline-block;
 }
 
-.pictures{
-  margin-bottom: 250px;
-  display: inline-block;
-}
-
 .tennis{
   width: 16%;
   height: 60%;
-  float: left;
   display: inline-block;
 }
 
