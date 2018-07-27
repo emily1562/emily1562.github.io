@@ -1,49 +1,63 @@
 <!DOCTYPE html>
 <!-- This is a comment -->
 <html>
-<link rel ="stylesheet"; href ="websitecss.css">
-<script src="websiteJS.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 <head>
+  <link rel ="stylesheet"; href ="websitecss.css">
+  <script src="websiteJS.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+<!-- this is header code from website, testing link to website- https://www.w3schools.com/css/css_website_layout.asp
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+}
+</style>-->
 </head>
-<body>
+
+<body style="background-Color: #EAEDED">
+<!-- website code for header
+<div class="header">
+  <h1>Emily Le</h1-->
+<div class = "topnav">
+  <a id="home" href="Emilyle.html" onmouseover="makeGrey(home)" onmouseout="makeBlack(home)">Home</a>
+  <a id="about" href="aboutme.html"onmouseover="makeGrey(about)" onmouseout="makeBlack(about)">All About Me</a>
+  <a id="potfolio" href="portfolio.html" onmouseover="makeGrey(portfolio)" onmouseout="makeBlack(portfolio)"> Portfolio</a>
+</div>
+
+<div class= "backgroundpic">
+  <img src= "seattle.jpg" width=50%; height=850%;>
+  <div class= "centeredtext"> <h1> Emily Le</h1></div>
+</div>
+
+<p>
   <iframe src="https://open.spotify.com/embed?uri=spotify:user:spotify:playlist:37i9dQZF1DXcBWIGoYBM5M" width="210" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-  <h1>Emily Le</h1>
-  <h2>About Me:</h2
-<p> 
- <img src="family.jpg" class= "fampic">
- <alt= "This is a picture of Emily's family. From left to right is her sister, her dad, Emily,and her mom">
+</p>
+<!--<p>
+<iframe src="https://open.spotify.com/embed?uri=spotify:user:spotify:playlist:37i9dQZF1DXcBWIGoYBM5M" width="210" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</p>
+ Extra stuff that are in the other pages <p>
+  <img src="C:\Users\Girls Who Code\OneDrive\Girls Who Code\HTML - Week 4\pictures\family.jpg" class= "fampic">
+  <alt= "This is a picture of Emily's family. From left to right is her sister, her dad, Emily,and her mom.">
+</p>
+<p>
 My name is Emily Le. I am Vietnamese Chinese American and apart of the first generation Asian American my family. I have a mom, dad, and a sister. I am the youngest child of the two with me and my sister being 5 years apart (Fun Fact! My older sister, Chelsea and I have the same birthday. We also have milestone birthdays too!).  During my free time, I love to eat, sleep, binge watch TV shows, play tennis, and listen to music.
 </p>
 <p>
-  <img src="Tennis2018.jpg" class="tennis">
+  <img src="C:\Users\Girls Who Code\OneDrive\Girls Who Code\HTML - Week 4\pictures\Tennis2018.jpg" class="tennis">
+</p>
+<p>
  One of my hobbies is playing Tennis! I have been playing for 3 years now and on my school's tennis team. I love playing it and really enjoy it!
 </p>
 <p>
-<img src="adventuregame.PNG" class= "adventurecode">
-<img src= "adventure2.PNG" class= " adventurecode">
+<img src="C:\Users\Girls Who Code\OneDrive\Girls Who Code\HTML - Week 4\pictures\adventuregame.png" class="adventurecode">
+<img src= "C:\Users\Girls Who Code\OneDrive\Girls Who Code\HTML - Week 4\pictures\adventure2.png" class="adventurecode">
+</p-->
 
   <!--<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button-->
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button
   <script>
 
-var slideIndex = 1;
-showDivs(slideIndex);
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  x[slideIndex-1].style.display = "block";
-}
-</script>
-</p>
-<!--h3 id="author" onmouseover= "enlarge(author)" onmouseout="smaller(author)"> Emily </h3-->
 </body>
 </html>
