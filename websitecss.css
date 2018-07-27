@@ -36,9 +36,9 @@ iframe{
   display: inline-block;
 }
 
-#toppic{
+.pictures{
   margin-bottom: 250px;
-
+  display: inline-block;
 }
 
 .tennis{
