@@ -16,24 +16,77 @@ p{
   font-size: 17px;
 }
 iframe{
-  float: left;
+  float:left;
+  display: inline-block;
 }
-   
+
+.text{
+  display:inline-block;
+  width: 600px;
+  margin-left: 20px;
+}
+/* header code .header {
+    padding: 20px;
+    text-align: center;
+}*/
+
 .fampic{
   width: 30%;
-  height: 30%;
-  float: left;
+  height: 50%;
+  display: inline-block;
+}
+
+#toppic{
+  margin-bottom: 250px;
+
 }
 
 .tennis{
-  width: 15%;
-  height: 15%;
+  width: 16%;
+  height: 60%;
   float: left;
-  clear: left;
+  display: inline-block;
 }
+
+.centeredtext{
+  position:center;
+  top: 50%
+  left: 50%
+  transform: translate(-50%, 50%);
+}
+
+.backgroundpic{
+  position: relative;
+  text-align: center;
+}
+
+.container{
+  border: 1px black solid;
+  width: 400px;
+  height: 200px;
+  margin: auto;
+  display: block;
+}
+
+.adventurecode img{
+  width: 400px;
+  height: 200px;
+}
+
 .adventurecode{
-  width: 30%;
-  height: 30%;
+  display: none;
+}
+
+.topnav{
+  background-color: black;
+  overflow: hidden;
+}
+
+.topnav a{
   float: left;
-  clear: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
 }
